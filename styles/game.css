@@ -1,0 +1,149 @@
+/* work sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* nav styles */
+
+nav{
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    height: 130px;
+   
+
+}
+
+.nav-first-part{
+    display: flex;
+    padding: 20px 70px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.nav-first-part img{
+    width: 86.041px;
+    height: 40px;
+
+
+}
+.nav-first-part h3{ 
+    margin-left: 10px;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+#gamer{
+    color: #F948B2 ;
+}
+
+
+.nav-second-part div{
+    display: flex;
+    
+    
+}
+
+.nav-second-part div>img{
+    margin-left: 10px;
+}
+.nav-second-part ul{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-second-part li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#nav-mar{
+    margin-top: 10px;
+}
+
+.nav-second-part a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.nav-second-part-ext{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+/* Mobile devices */
+@media screen and (max-width:576px){
+    .nav-second-part ul , nav{
+        flex-direction: column;
+    }
+    .nav-second-part ul{
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* Tablet */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    
+}
