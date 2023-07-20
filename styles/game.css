@@ -272,30 +272,105 @@ nav{
 .button-container1{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    margin-left: 100px;
-}
-
-.button-container1 button , .button-container2 button{
-    width: 248px;
-    height: 80px;
-    border-radius: 50px;
-    background: #FFF;
-    border: none;
+    justify-items: center;
+     
 }
 
 .button-container2{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-top: 30px;
-    margin-left: 130px;
+    justify-items: center;
+     
+}
+
+.btn-content > button{
+    background: #FFF;
+    border-style: none;
+    width: 251px;
+    height: 80px;
+    border-radius: 40px;
+    background: #FFF;
+    border-style: none;
+    display: flex;
+    align-items: center;
+
+}
+ 
+.button{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.btn-content > button:hover{
+    border:2px solid #F948B2;
+    color: #FF42A5;
+}
+
+
+/* footer styles */
+
+footer{
+    background: #0B0223;
+    text-align: center;
+    width: 1920px;
+    height: 500px;
+  
+}
+
+.footer-gamer{
+    color: #FFF;
+    margin: 120px 800px 20px 600px;
     
 }
 
-.btn-content {
-    display: flex;
-    align-items: center;
-    justify-items: center;
+.list-name{
+    display:flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 380px;
+    margin-top: 0px;
 }
+
+.list-name a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.social-link{
+    display:flex;
+    gap: 50px;
+    margin-left: 600px;
+    padding: 20px;
+}
+
+.terms ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin-left: 410px;
+    
+}
+
+.terms-links a{
+    text-decoration: none;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 325px;
+
+}
+
+
 
 
 
